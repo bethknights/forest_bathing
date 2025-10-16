@@ -1,0 +1,152 @@
+ .maintext {
+  text-align: center;
+  align-items: center;
+}
+
+ .lowertext {
+  text-align: center;
+  padding-top: 8px;
+  color: #af571c;
+  font-size: 180%;
+}
+
+h1 {
+  font-size: 300;
+  font-weight: bold;
+  text-align: center;
+  color: #e7640c;
+}
+
+.locationimages {
+justify-content: center;
+gap: 20px;
+padding-top: 15px;
+}
+
+nav {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    padding-bottom: 20px;} 
+
+h2 {
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    color: #af571c;
+} 
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+header {
+opacity: 0.774;
+text-align: center;
+position: sticky;
+height: auto;
+padding: 20px;
+font-size: 15px;
+font-weight: bold;
+background-color: rgb(7, 7, 7);
+color: linear-gradient(rgb(70, 211, 15), rgb(7, 67, 95));
+}
+
+body {
+background-color:rgb(104, 173, 119);
+color: rgb(2, 46, 28); 
+font-weight: bold;
+font-family: Arial, sans-serif;
+scroll-behavior: smooth;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+footer {
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  font-size: 220%;
+  font-weight: bold;
+  height: 40px;  
+}
+
+.background-footer {
+background-image: linear-gradient(rgb(70, 211, 15), rgb(7, 67, 95));
+    color: transparent;
+    background-clip: text;
+  padding: 60px;
+  text-align: center;
+}
+
+.videos {
+display: flex;
+justify-content: center;
+gap: 20px; 
+flex-wrap: wrap;
+padding-bottom: 8%;
+}
+
+.myvid {
+justify-content: center;
+padding-top: 90px;
+}
+
+.images {
+display: flex;
+justify-content: center;
+gap: 20px;
+padding-top: 15px;
+} 
+
+
+img {
+margin: 10px;
+width: 300px;
+height: auto;
+}
+
+.noAlign {display: block;
+width: 100%;
+float: none;
+clear: both;
+}
+
+.rightAlign {
+float: right; 
+}
+#wrapper {
+min-width: 600px;
+max-width: 1000px;
+margin: auto;
+}
+
+li::marker {
+  color: rgb(255, 208, 0);
+  font-size: 120%;
+  font-weight: bold;
+}
+
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+block {
+  position: absolute;
+  justify-content: center;
+  left: 20px;
+  right: 20px;
+  top: 250px;
+  color: rgb(180, 111, 6);
+background-color:rgb(104, 173, 119);
+
+}
