@@ -3,18 +3,15 @@
   align-items: center;
 }
 
+main  {  text-align: center;
+
+}
+
  .lowertext {
   text-align: center;
   padding-top: 8px;
   color: #af571c;
   font-size: 180%;
-}
-
-h1 {
-  font-size: 300;
-  font-weight: bold;
-  text-align: center;
-  color: #e7640c;
 }
 
 .locationimages {
@@ -29,6 +26,13 @@ nav {
     font-weight: bold;
     padding-bottom: 20px;} 
 
+h1 {
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    color: #af571c;
+} 
+
 h2 {
     text-align: center;
     font-size: 300%;
@@ -42,19 +46,20 @@ ul {
 }
 
 header {
-opacity: 0.774;
+opacity: 0.674;
 text-align: center;
 position: sticky;
-height: auto;
-padding: 20px;
-font-size: 15px;
-font-weight: bold;
-background-color: rgb(7, 7, 7);
-color: linear-gradient(rgb(70, 211, 15), rgb(7, 67, 95));
+height: 130px;
+  font-weight: bold;
+  font-size: large;
+  background-image: linear-gradient(rgb(24, 19, 83), rgb(48, 175, 22));
+  color: oklch(lightness chroma hue);
+  padding: 60px;
+  text-align: center;
 }
 
 body {
-background-color:rgb(104, 173, 119);
+background-color:rgb(102, 179, 121);
 color: rgb(2, 46, 28); 
 font-weight: bold;
 font-family: Arial, sans-serif;
@@ -75,15 +80,13 @@ footer {
   font-size: 220%;
   font-weight: bold;
   height: 40px;  
-}
-
-.background-footer {
-background-image: linear-gradient(rgb(70, 211, 15), rgb(7, 67, 95));
+  background-image: linear-gradient(rgb(70, 211, 15), rgb(7, 67, 95));
     color: transparent;
     background-clip: text;
   padding: 60px;
   text-align: center;
 }
+
 
 .videos {
 display: flex;
@@ -150,3 +153,38 @@ block {
 background-color:rgb(104, 173, 119);
 
 }
+
+figcaption {
+  color: rgb(52, 53, 52);
+  text-align: center;
+  font-size: 80%;
+  padding-top: 5px;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  text-transform: none;
+  word-wrap: normal;
+  direction: ltr;
+  text-decoration: none;
+}
+
+  .contact-details a {
+  display: flexbox;
+  gap: 20px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  align-items: stretch;
+  text-decoration: none;
+      }
+
+  .contact-details .material-icons {
+  font-size: 32px;
+  color: #38761d;
+  transition: color 0.3s ease;
+  text-decoration: none;
+      }
