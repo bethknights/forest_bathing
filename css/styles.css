@@ -4,6 +4,7 @@
 }
 
 main  {  text-align: center;
+  //background-image: url('../images/autumnal.jpg');
 
 }
 
@@ -30,7 +31,7 @@ h1 {
     text-align: center;
     font-size: 300%;
     font-weight: bold;
-    color: #af571c;
+  color: #f16507;
 } 
 
 h2 {
@@ -52,8 +53,9 @@ position: sticky;
 height: 130px;
   font-weight: bold;
   font-size: large;
-  background-image: linear-gradient(rgb(24, 19, 83), rgb(48, 175, 22));
-  color: oklch(lightness chroma hue);
+  //background-image: linear-gradient(rgb(57, 153, 77), rgb(48, 175, 22));
+  //color: oklch(lightness chroma hue);
+  background-image: url('../images/autumnal.jpg');
   padding: 60px;
   text-align: center;
 }
@@ -76,15 +78,13 @@ scroll-behavior: smooth;
 footer {
   text-align: center;
   padding-top: 7%;
-  padding-bottom: 7%;
-  font-size: 220%;
+  padding-bottom: 0%;
+  font-size: 250%;
   font-weight: bold;
+  color: #af571c;
   height: 40px;  
-  background-image: linear-gradient(rgb(70, 211, 15), rgb(7, 67, 95));
-    color: transparent;
-    background-clip: text;
   padding: 60px;
-  text-align: center;
+  background-image: url('../images/autumnal.jpg');
 }
 
 
@@ -99,6 +99,7 @@ padding-bottom: 8%;
 .myvid {
 justify-content: center;
 padding-top: 90px;
+padding-bottom: 50px;
 }
 
 .images {
@@ -139,6 +140,7 @@ li::marker {
 #myVideo {
   right: 0;
   bottom: 0;
+  padding-bottom: 10%;
   min-width: 100%; 
   min-height: 100%;
 }
@@ -174,12 +176,12 @@ figcaption {
 }
 
   .contact-details a {
-  display: flexbox;
-  gap: 20px;
+  display: flex;
   margin-top: 10px;
   margin-bottom: 25px;
-  align-items: stretch;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
       }
 
   .contact-details .material-icons {
