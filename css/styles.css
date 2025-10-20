@@ -4,7 +4,6 @@
 }
 
 main  {  text-align: center;
-  //background-image: url('../images/autumnal.jpg');
 
 }
 
@@ -29,7 +28,7 @@ nav {
 
 h1 {
     text-align: center;
-    font-size: 300%;
+    font-size: 350%;
     font-weight: bold;
   color: #f16507;
 } 
@@ -53,8 +52,6 @@ position: sticky;
 height: 130px;
   font-weight: bold;
   font-size: large;
-  //background-image: linear-gradient(rgb(57, 153, 77), rgb(48, 175, 22));
-  //color: oklch(lightness chroma hue);
   background-image: url('../images/autumnal.jpg');
   padding: 60px;
   text-align: center;
