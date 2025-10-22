@@ -219,3 +219,15 @@ figcaption {
   margin: 0 auto;
   max-width: 850px;
 }
+
+.weblist {
+  text-align: center;
+}
+
+.weblist ul {
+  display: inline-block;
+}
+
+.weblist ul li {
+  text-align: left;
+}
