@@ -20,20 +20,20 @@ padding-top: 15px;
 }
 
 .authimage {
-      justify-content: center;
-      padding-bottom: 1%;
-      border-width: 8px;
-      border-style: solid;
-      border-color: #d1ce21;
-      width: fit-content;
-      height: fit-content;
-      margin-right: auto;
-      margin-left: auto;
+  justify-content: center;
+  padding-bottom: 1%;
+  border-width: 8px;
+  border-style: solid;
+  border-color: #d1ce21;
+  width: fit-content;
+  height: fit-content;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .index {
-justify-content: center;
-padding-bottom: 10%;
+ justify-content: center;
+ padding-bottom: 10%;
 }
 
 nav {
@@ -62,10 +62,10 @@ ul {
 }
 
 header {
-opacity: 0.674;
-text-align: center;
-position: sticky;
-height: 130px;
+  opacity: 0.674;
+  text-align: center;
+  position: sticky;
+  height: 130px;
   font-weight: bold;
   font-size: large;
   background-image: url('../images/autumnal.jpg');
@@ -146,6 +146,7 @@ clear: both;
 .rightAlign {
 float: right; 
 }
+
 #wrapper {
 min-width: 600px;
 max-width: 1000px;
